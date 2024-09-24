@@ -1,4 +1,4 @@
-package com.yash.controller;
+package com.neo.controller;
 
 import java.util.Map;
 
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.yash.binding.LoginForm;
-import com.yash.binding.UnlockAccountForm;
-import com.yash.binding.UserForm;
-import com.yash.service.UserMgmtService;
+import com.neo.binding.LoginForm;
+import com.neo.binding.UnlockAccountForm;
+import com.neo.binding.UserForm;
+import com.neo.service.UserMgmtService;
 
 @RestController
 public class UserRestController {

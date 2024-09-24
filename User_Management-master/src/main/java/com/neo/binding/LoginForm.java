@@ -1,4 +1,4 @@
-package com.yash.binding;
+package com.neo.binding;
 
 import lombok.Data;
 

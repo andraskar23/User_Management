@@ -1,10 +1,10 @@
-package com.yash.repository;
+package com.neo.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.yash.entity.CityMaster;
+import com.neo.entity.CityMaster;
 
 public interface CityRepository extends JpaRepository<CityMaster, Integer> {
 

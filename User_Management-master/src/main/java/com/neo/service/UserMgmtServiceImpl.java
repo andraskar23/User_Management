@@ -1,4 +1,4 @@
-package com.yash.service;
+package com.neo.service;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -12,18 +12,18 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.yash.binding.LoginForm;
-import com.yash.binding.UnlockAccountForm;
-import com.yash.binding.UserForm;
-import com.yash.entity.CityMaster;
-import com.yash.entity.CountryMaster;
-import com.yash.entity.StateMaster;
-import com.yash.entity.User;
-import com.yash.repository.CityRepository;
-import com.yash.repository.CountryRepository;
-import com.yash.repository.StateRepository;
-import com.yash.repository.UserRepository;
-import com.yash.utils.EmailUtils;
+import com.neo.binding.LoginForm;
+import com.neo.binding.UnlockAccountForm;
+import com.neo.binding.UserForm;
+import com.neo.entity.CityMaster;
+import com.neo.entity.CountryMaster;
+import com.neo.entity.StateMaster;
+import com.neo.entity.User;
+import com.neo.repository.CityRepository;
+import com.neo.repository.CountryRepository;
+import com.neo.repository.StateRepository;
+import com.neo.repository.UserRepository;
+import com.neo.utils.EmailUtils;
 
 @Service
 public class UserMgmtServiceImpl implements UserMgmtService {

@@ -1,10 +1,10 @@
-package com.yash.service;
+package com.neo.service;
 
 import java.util.Map;
 
-import com.yash.binding.LoginForm;
-import com.yash.binding.UnlockAccountForm;
-import com.yash.binding.UserForm;
+import com.neo.binding.LoginForm;
+import com.neo.binding.UnlockAccountForm;
+import com.neo.binding.UserForm;
 
 public interface UserMgmtService {
 

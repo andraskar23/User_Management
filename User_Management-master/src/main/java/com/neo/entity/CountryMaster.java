@@ -1,4 +1,4 @@
-package com.yash.entity;
+package com.neo.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

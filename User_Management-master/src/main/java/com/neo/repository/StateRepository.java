@@ -1,10 +1,10 @@
-package com.yash.repository;
+package com.neo.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.yash.entity.StateMaster;
+import com.neo.entity.StateMaster;
 
 public interface StateRepository extends JpaRepository<StateMaster, Integer> {
 	
